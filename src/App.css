@@ -1,0 +1,44 @@
+body {
+  background-image: url("../public/back.jpeg");
+  background-repeat: no-repeat;
+}
+
+.App {
+  display: inline-grid;
+  grid-template-columns: auto auto;
+}
+
+.Home {
+  display: inline-grid;
+  grid-template-columns: 10% auto 10%;
+  grid-template-rows: 50px;
+  text-align: center;
+}
+
+.item1 {
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+
+.item2 {
+}
+
+.item3 {
+}
+
+.item4 {
+}
+
+.item5 {
+  margin-top: 20px;
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+
+.item6 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
